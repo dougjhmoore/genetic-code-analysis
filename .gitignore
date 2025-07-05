@@ -1,0 +1,40 @@
+# Python Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# System Files
+*.Zone.Identifier
+.DS_Store
+*.tmp
+*.log
+*.swp
+*.bak
+
+# Large Data Files - Available in Zenodo Archive
+# GenBank codon data (249MB - too large for GitHub)
+CUTG/AGG/genbank_codon_species.tsv
+
+# Raw CDS files (hundreds of MB each)
+CUTG/CDS/genbank_cds.tsv
+CUTG/CDS/genbank_cds_fixed.tsv
+CUTG/CDS/refseq_cds.tsv
+CUTG/CDS/refseq_cds_fixed.tsv
+
+# Large INDEX files
+CUTG/INDEX/genbank_species_index.tsv
+
+# Development and Editor Files
+.vscode/
+.idea/
+*~
+
+# Results that can be regenerated
+*.png
+*.svg
+*.pdf
+!scripts/fc_plots/*.png
+!scripts/fc_plots/*.svg
+!docs/theoretical-framework.pdf

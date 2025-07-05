@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://dnahive.fda.gov/dna.cgi?cmd=codon_usage&id=537&mode=cocoputs
+HostUrl=https://dnahive.fda.gov/dna.cgi?cmd=objFile&ids=537&filename=Refseq_species.tsv&raw=1
